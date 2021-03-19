@@ -12,17 +12,22 @@
       <script src="viewer.js"></script>
     </head>
     <body>
-        <div id="app" class="full-height"></div>
+      <div id="app" class="full-height"></div>
 
 
-        <h2>Hello, World!</h2>
-        <p>Would you care to cycle a color?</p>
-        <div>
-            <input type="button" id="cycle"  value="Yes, I would" />
-        </div>
-        <div id="color-container">
-            <div id="color"></div>
-        </div>
-        <div id="list"></div>
-    </body>
+        <h2>Noita Intergration</h2>
+        <table id="voting" class="table_options">
+          <tr>
+            <th colspan="2">Voting Options!</th>
+          </tr>
+          <tr>
+            <td class="cell_voting"><button class="button_voting" onclick="vote_for_event(1)"> 1 </button></td>
+            <td class="cell_voting"><button class="button_voting" onclick="vote_for_event(2)"> 2 </button></td>
+          </tr>
+          <tr>
+            <td class="cell_voting"><button class="button_voting" onclick="vote_for_event(3)"> 3 </button></td>
+            <td class="cell_voting"><button class="button_voting" onclick="vote_for_event(4)"> 4 </button></td>
+          </tr>
+        </table>
+        </body>
 </html>

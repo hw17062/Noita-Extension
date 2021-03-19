@@ -3,20 +3,18 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#color {
-    border-radius: 50px;
-    transition: background-color 0.5s ease;
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
-    background-color: #6441A4;
-    float: left;
-    position: relative;
-    left: -50%;
+table.table_options{
+  width:100%;
+  background-color: white;
+  text-align: center;
+  height: 10em
 }
 
-#color-container {
-    float: left;
-    position: relative;
-    left: 50%;
+td.cell_voting{
+  /* background-color: red; */
+}
+
+button.button_voting{
+  width: 100%;
+  height: 100%;
 }
